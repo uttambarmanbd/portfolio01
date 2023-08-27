@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header-item{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.header-item h2{
+    
+        font-family: coomfortaa;    
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 20px;
+        margin-left: 170px;
+}
+
+
+.header-item a{
+    color: #000000;
+    background-color:#adaa99 ;
+    display:inline-block;
+    font-family: coomfortaa;    
+    font-size:20px;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 20px;
+    border: 1px solid #6e6969;
+    padding: 10px 15px;
+    border-radius:8px;
+}
+.header-item a:hover{
+    background-color: transparent;
+    
+    
+}
+/* eng of header */
+.main{
+    display: flex;
+    /* width: 80%; */
+    align-items: flex-start;
+    gap: 35px;
+}
+.right-item img{
+    width:600px;
+    /* margin-left: 700px; */
+}
+.left-item {
+    
+    width: 400px;
+    margin: 65px ;
+    margin-left:180px ;
+}
+.left-item h1{
+    color:tomato ;
+    font-size: 35px;
+    font-weight: 700px;
+
+    
+}
+.left-item p{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.left-item button{
+    margin: 15px;
+    padding: 10px 10px;
+    border: 3px solid tomato;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #a59898;
+}
+.left-item button:hover{
+    background-color: transparent;
+}
+/* end of main. */
+.icon{
+    margin: auto;
+    
+}
+
+.icon ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style-type: none;
+    
+    
+}
+.icon ul li i{
+    font-size: 60px;
+    padding: 20px;
+    border: 0.1px dotted ;
+    border-radius: 10px;
+}
+.icon ul li i:hover{
+    background-color: #6e6969;
+}
